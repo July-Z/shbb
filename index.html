@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<title>水环宝宝</title>
+    <link rel="icon" href="images/title.ico" sizes="32x32">
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="application/x-javascript">
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
+	<!-- Google Fonts -->
+	<link href='http://fonts.useso.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+	<!-- Google Font link ends-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+
+	</script>
+</head>
+
+<body>
+	<!-- Header starts here-->
+	<div class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+				<span class="menu"></span>
+				<div class="clear"></div>
+				<div class="navigation">
+					<ul class="navig">
+						<li class="active">
+							<a href="#">主页</a>
+						</li>
+						<li>
+							<a href="#about" class="scroll">功能</a>
+						</li>
+						<li>
+							<a href="#service" class="scroll">示例</a>
+						</li>
+						<li>
+							<a href="#contact" class="scroll">交流</a>
+						</li>
+					</ul>
+				</div>
+				<script>
+					$( "span.menu" ).click(function() {
+					  $( "ul.navig" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+
+				<div class="clearfix"> </div>
+			</div>
+			<!-- Log In a BoX -->
+			<div class="login">
+				<div class="text">
+					<input type="text" placeholder="User Name" required="" />
+				</div>
+				<div class="text">
+					<input type="password" placeholder="password" required="" />
+				</div>
+				<div class="text">
+					<input type="submit" value="Login" />
+				</div>
+				<script>
+					$( "ul.navig li.bold a" ).click(function() {
+					  $( ".login" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			</div>
+			<!-- Log In a BoX -->
+			<div class="banner">
+				<div class="row banner-row">
+					<div class="col-md-7 banner-row-left">
+						<img src="images/ban-mat1.png" />
+					</div>
+					<div class="col-md-5 banner-row-left banner-row-right">
+						<h2>水环宝宝v1.0</h2>
+						<p>水环宝宝是一款免费软件，用于对地下水及土壤样品进行自动评价。通过对样品检测结果进行简单的标签配置，即可对动辄成百上千的样品及检测项目进行快速评价，可为广大水工环工作者节省大量时间。</p>
+						<p>支持《地下水质量标准》(GB/T 14848-2017)及《土地质量地球化学评价规范》(DZ/T 0295-2016)两本规范，后续还将增加更多实用功能，敬请关注！</p>
+						<div class="buttons">
+							<input type="button" value="免费下载" /><input type="button" class="act" value="使用说明" />
+						</div>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header ends here-->
+	<!-- About starts here-->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="row about-content">
+				<div class="col-md-8 about-left-content">
+					<h3>
+						功能
+					</h3>
+					<p>1、地下水质量标准中 表1、表2单项评价；(对应编号示例：1-1，1-2)</p>
+					<p>2、地下水质量综合评价；</p>
+					<p>3、土壤质量地球化学评价规范中 表17、表20、表D1、表D2单项评价；(对应编号示例：17-1，20-1，D1-1, D2-1)</p>
+				</div>
+				<div class="col-md-4 about-right-content">
+					<img src="images/about-mat.png" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="about-us">
+			<div class="container">
+				<div class="row about-below-content">
+					<div class="col-md-4 about-content-below-left">
+						<img src="images/testi-sy21.png" />
+						<h3>
+							易用
+						</h3>
+						<p>即刻下载软件，参照提供的“示例.xlsx”文件</p>
+						<p>开始使用吧！</p>
+					</div>
+					<div class="col-md-4 about-content-below-left">
+						<img src="images/testi-sy1.png" />
+						<h3>
+							持续更新
+						</h3>
+						<p>不断完善升级的自动评价生态系统</p>
+						<p>宝宝在手，水土不愁。</p>
+					</div>
+					<div class="col-md-4 about-content-below-left">
+						<img src="images/testi-sy3.png" />
+						<h3>
+							高效
+						</h3>
+						<p>超快运行效率，600+组样品30+项检测内容</p>
+						<p>实测15s评价完成！最省心的自动评价！</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- About ends here-->
+	<!-- Slide starts here-->
+	<div class="slider-start" id="service">
+		<div class="container">
+
+			<div class="slider-content">
+				<div class="slider-heading">
+					<h3> 示例展示</h3>
+					<p>
+						包含评价前和评价后的案例，支持按结果着色，以及异常值（紫色填充）标注。
+					</p>
+				</div>
+				<div class="wmuSlider example1">
+					<article style="position: absolute; width: 100%; opacity: 0;">
+
+						<div class="banner">
+							<img src="images/layer-image1.png" alt="" />
+						</div>
+					</article>
+					<article style="position: relative; width: 100%; opacity: 1;">
+
+						<div class="banner">
+							<img src="images/layer-image.png" alt="" />
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+
+						<div class="banner">
+							<img src="images/layer-image2.png" alt="" />
+						</div>
+					</article>
+
+				</div>
+			</div>
+			<script src="js/jquery.wmuSlider.js"></script>
+			<script>
+				$('.example1').wmuSlider();
+			</script>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- Slide ends here-->
+	<!-- <div class="container">
+	<div class="testimonals" id="features">
+		<div class="slide-content-class3">
+			<h3>What people say</h3>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-a"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-b"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-c"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-d"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-e"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 slide-content-class4-left">
+				<i class="ser-f"></i>
+				<div class="services-column-row-left">
+						<h3>Excepteur sint occaecat</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem. Praesent sed convallis quam.</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div> -->
+	<!-- Contact start-->
+	<div class="contact" id="contact" style="background-color: darkslateblue;">
+		<div class="container">
+			<div class="row contact-row">
+				<div class="col-md-6 contact-row-left">
+					<h3>沟通交流 </h3>
+					<p>沟通中成长，交流中进步。</p>
+					<p class="add-mark"><span><img src="images/ad-sy.png" /></span>河南省 郑州市</p>
+					<p class="ema-mark"><span><img src="images/ema-sy.png" /></span>120571814@qq.com</p>
+					<p class="cel-mark"><span><img src="images/cel-sy.png" /></span>
+						<a style="color: mediumturquoise;font-weight: bold;" href="https://jq.qq.com/?_wv=1027&k=5pJLHrf"
+							target="_blank">点击加入QQ交流群：793138027</a>
+					</p><br>
+				</div>
+				<div class="col-md-6 about-right-content">
+					<h3 style="color: ghostwhite;">赞助捐赠</h3>
+					<p style="color: ghostwhite;">1、你的捐赠会帮助更多的朋友使用到免费、优质、无广告的软件！</p>
+					<p style="color: ghostwhite;">2、维护公益软件不易，你们的支持是我 坚持开发，不断完善 软件功能 和 开发新的实用免费软件 的动力！</p>
+					<p style="color: ghostwhite;">捐赠数额不限，特大数额可以加入网站鸣谢列表或全站推荐。</p><br>
+					<img src="images/jzwx.png" /><img src="images/jzzfb.png" />
+				</div>
+				<!-- <div class="col-md-6 contact-row-right">
+				<form>
+					<div class="form-row1">
+					<input type="text" placeholder="Type Your Name" required=""/>
+					<input type="text" placeholder="Type Your Email" required=""/>
+					</div>
+					<div class="form-row2">
+						<select> <option>Your subject</option><option>2</option><option>2</option></select>
+					</div>
+					
+					<textarea placeholder="Type Your Message" required=""></textarea>
+				<div class="form-row3">
+					<input type="reset"/><input type="submit" />
+				</div>
+			</div> -->
+				<!-- <div class="clearfix"> </div> -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact End-->
+	<!--FOOTER START-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<p>Copyright &copy; 2020.Company name All rights reserved.
+					<a target="_blank" href="http://dzdl.gitee.io/shbb">地质大陆：www.dzdl.net</a>
+				</p>
+			</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					/*
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					*/
+					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+		</div>
+	</div>
+	<!--FOOTER END-->
+	<!-- <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div> -->
+</body>
+
+</html>
