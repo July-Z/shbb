@@ -15,7 +15,8 @@ html, body{
 }
 /*-- header Part starts Here --*/
 .header{
-	background:url(../images/banner.jpg)no-repeat 0px 0px;
+	/*background:url(../images/banner.jpg)no-repeat 0px 0px;*/
+	background:url(https://dzdl.gitee.io/shbb/images/banner.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
